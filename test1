@@ -1,0 +1,361 @@
+<?php
+/* Template Name: About Us Page */
+get_header();
+?>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb-area shadow dark bg-cover text-center text-light"
+     style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vinit-blog-background-img-01-min.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h1>About Us</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Who we are -->
+<div id="who-we-are" class="about-area bg-gray pt-5">
+    <div class="container">
+        <div class="about-items">
+            <div class="row align-center">
+                <div class="col-lg-12 info wow fadeInRight text-center text-md-start">
+                    <div class="site-heading mb-0">
+                        <h4 class="title-sub">Who we are</h4>
+                        <h2 class="title-regular mb-0"> Arcturus Consulting Services </h2>
+                    </div>
+                    <p>
+                        Arcturus Consulting Services is a trusted provider of tailored solutions, leveraging our deep industry insights, expert application knowledge, and technical proficiency. Our extensive experience centers around various Oracle solutions, including E-Business Suite, Oracle ERP Cloud, and Oracle Supply Chain Management Cloud. The Oracle Cloud Team is dedicated to delivering tangible business outcomes, as reflected in our approach, solution design, and commitment to excellence. With a track record of handling intricate projects worldwide, we have honed our skills across diverse technologies, industries, and functional domains, establishing ourselves as the preferred choice in Oracle service provision.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Industry Experience -->
+<div id="industry-experience" class="about-area bg-gray py-5">
+    <div class="fixed-shape-left">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/9.png" alt="Shape">
+    </div>
+    <div class="container">
+        <div class="about-items">
+            <div class="row">
+                <div class="col-lg-6 pt-5">
+                    <div class="thumb">
+                        <img class="wow fadeInLeft" data-wow-delay="300ms"
+                             src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/aboutbgindustry2.avif"
+                             alt="Thumb">
+                        <img class="wow fadeInUp" data-wow-delay="500ms"
+                             src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/aboutbgindustry.avif"
+                             style="height: 300px;"
+                             alt="Thumb">
+                    </div>
+                </div>
+                <div class="col-lg-6 info wow fadeInRight text-center text-md-start">
+                    <div class="site-heading mb-0">
+                        <h4 class="title-sub">INDUSTRY EXPERIENCE</h4>
+                        <h2 class="title-regular mb-0">
+                            We possess expertise and a strategic industry focus in the following areas
+                        </h2>
+                    </div>
+                    <ul class="text-start">
+                        <li><h5>Manufacturing/Distribution</h5></li>
+                        <li><h5>Oil &amp; Gas</h5></li>
+                        <li><h5>Construction</h5></li>
+                        <li><h5>Utility</h5></li>
+                        <li><h5>Public Sector</h5></li>
+                        <li><h5>Healthcare</h5></li>
+                    </ul>
+                    <div class="button">
+                        <a href="<?php echo esc_url( home_url( '/#service' ) ); ?>"
+                           class="btn circle btn-theme-effect btn-sm">See all Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fun Factor -->
+<div class="fun-factor-area relative text-light">
+    <div class="half-bg-top-gray"></div>
+    <div class="fun-fact-items text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 item">
+                    <div class="fun-fact">
+                        <div class="timer" data-to="5" data-speed="2000">0</div>
+                        <span class="medium">Projects Completed</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 item">
+                    <div class="fun-fact">
+                        <div class="timer" data-to="2" data-speed="2000">0</div>
+                        <span class="medium">Active clients</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 item">
+                    <div class="fun-fact">
+                        <div class="timer" data-to="7" data-speed="2000">0</div>
+                        <span class="medium">Happy clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About Tabs -->
+<div class="portfolio-style-two-area">
+    <div id="our-values" class="about-style-four-area">
+        <div class="container">
+            <div class="row align-center">
+                <div class="single-item col-lg-12">
+                    <div class="about-style-four info wow fadeInRight default-padding" data-wow-delay="300ms">
+                        <h2 style="color:#202942;text-align: center;">About</h2>
+
+                        <nav>
+                            <div class="nav nav-tabs blur-tabs" id="nav-tab" role="tablist">
+                                <button class="nav-link active" id="nav-why-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-why" type="button" role="tab"
+                                        aria-controls="nav-why" aria-selected="true">
+                                    Our Why
+                                </button>
+                                <button class="nav-link" id="nav-mission-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-mission" type="button" role="tab"
+                                        aria-controls="nav-mission" aria-selected="false">
+                                    Our Mission
+                                </button>
+                                <button class="nav-link" id="nav-vision-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-vision" type="button" role="tab"
+                                        aria-controls="nav-vision" aria-selected="false">
+                                    Our Vision
+                                </button>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content blur-tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active blur-tab-pane" id="nav-why" role="tabpanel"
+                                 aria-labelledby="nav-why-tab" style="color:#202942;">
+                                We believe in the transformative power of talent. At Arcturus, our purpose is to unlock
+                                the full potential of individuals and organizations by connecting them with the right
+                                opportunities and resources.
+                            </div>
+
+                            <div class="tab-pane fade blur-tab-pane" id="nav-mission" role="tabpanel"
+                                 aria-labelledby="nav-mission-tab" style="color:#202942;">
+                                We aim to be the trusted partner of choice in navigating the ever-evolving landscape of
+                                Oracle Solutions and talent acquisition.
+                            </div>
+
+                            <div class="tab-pane fade blur-tab-pane" id="nav-vision" role="tabpanel"
+                                 aria-labelledby="nav-vision-tab" style="color:#202942;">
+                                We aspire to set new standards of innovation, integrity, and personalized service,
+                                creating transformative opportunities for individuals and organizations worldwide.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- about-style-four-area -->
+</div> <!-- portfolio-style-two-area -->
+
+<style>
+/* Blur Effect for Tabs (safe defaults) */
+.blur-tab-pane {
+    transition: opacity 0.4s ease, transform 0.4s ease, filter 0.4s ease;
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.blur-tab-pane.show.active {
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Optional: subtle style for tab buttons */
+.blur-tabs .nav-link {
+    transition: all 0.3s ease;
+}
+
+.blur-tabs .nav-link:hover {
+    filter: blur(0.3px);
+}
+
+/* Counter styles */
+.fun-fact {
+    position: relative;
+}
+
+.timer {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.timer.counting {
+    color: #4a90e2;
+    text-shadow: 0 0 20px rgba(74, 144, 226, 0.5);
+}
+
+/* Existing team styles (kept, if used elsewhere) */
+.team-carousel {
+    position: relative;
+}
+
+.team-carousel .carousel-control-prev,
+.team-carousel .carousel-control-next {
+    width: 5%;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.team-carousel .carousel-control-prev:hover,
+.team-carousel .carousel-control-next:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 20px;
+}
+
+.team-hover {
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: translateY(0);
+}
+
+.team-hover:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.15) !important;
+}
+
+.featured-member {
+    border-radius: 20px !important;
+    background: linear-gradient(145deg, #ffffff, #f8f9fa);
+    box-shadow:
+        0 20px 40px rgba(32, 41, 66, 0.15),
+        0 10px 20px rgba(0,0,0,0.08),
+        inset 0 1px 0 rgba(255,255,255,0.8);
+    border: 1px solid rgba(255,255,255,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.featured-member::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #202942, #4a90e2);
+}
+
+.featured-member .thumb {
+    margin-bottom: 15px;
+}
+
+.featured-member:hover {
+    transform: translateY(-20px) scale(1.02) !important;
+    box-shadow:
+        0 35px 70px rgba(32, 41, 66, 0.25),
+        0 15px 30px rgba(0,0,0,0.12) !important;
+}
+
+.team-style-two {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px 20px;
+    border: 1px solid rgba(0,0,0,0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+.team-style-two .thumb {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.team-style-two .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
+.team-style-two:hover .thumb {
+    border-color: #202942;
+    transform: scale(1.05);
+}
+
+.team-style-two .info h4 {
+    color: #202942;
+    font-weight: 700;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.team-style-two:hover .info h4 {
+    color: #4a90e2;
+}
+
+@media (max-width: 768px) {
+    .team-style-two {
+        margin-bottom: 2rem;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 8%;
+    }
+
+    .timer {
+        font-size: 2.5rem;
+    }
+}
+</style>
+
+<script>
+jQuery(function($){
+    // COUNTER: requires jquery.appear.js + jquery.countTo.js
+    if ($.fn.appear && $.fn.countTo) {
+        $('.timer').each(function () {
+            var $this = $(this);
+            $this.appear(function() {
+                if ($this.data('counted')) return;
+                $this.data('counted', true);
+                $this.addClass('counting');
+                $this.countTo({
+                    from: 0,
+                    to: $this.data('to'),
+                    speed: $this.data('speed') || 2000,
+                    refreshInterval: 50,
+                    onComplete: function() {
+                        $this.removeClass('counting');
+                    }
+                });
+            });
+        });
+    } else {
+        console.warn('appear or countTo plugin not loaded');
+    }
+});
+</script>
+
+<?php
+get_footer();
+?>

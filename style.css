@@ -1,0 +1,283 @@
+/*
+Theme Name: My Custom Theme
+Theme URI: http://localhost/
+Author: Your Name
+Description: A fully custom theme built from scratch.
+Version: 1.0
+*/
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.full-width {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Footer Styling */
+.site-header, .site-footer {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.hero-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+
+.hero-overlay h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+.oracle {
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+    background: linear-gradient(90deg, #eafff2, #ffffff);
+}
+
+.oracle-left img {
+    width: 550px;
+    border-radius: 20px;
+}
+
+.oracle-right {
+    width: 50%;
+    padding-left: 40px;
+}
+.what-we-do {
+    text-align: center;
+    padding: 80px 10%;
+    background: #eafff2;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    width: 33%;
+    background: #1d2ca3;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+.header-wrapper {
+    background: #0d1b3e;
+    padding: 15px 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 55px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu-items a {
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu-items {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        background: #0d1b3e;
+        padding: 20px;
+    }
+
+    .menu-items.active {
+        display: flex;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+    }
+}
+/* -------------------- Contact Page Styles -------------------- */
+
+/* Breadcrumb Area */
+.breadcrumb-area {
+    padding: 120px 0 80px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.breadcrumb-area h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Contact Section */
+.contact-area.default-padding {
+    padding: 100px 0;
+    position: relative;
+    background: #f8f9fa;
+}
+.contact-content {
+    position: relative;
+}
+.contact-content .shape {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 1;
+}
+.contact-content .shape img {
+    max-width: 100%;
+}
+.contact-form-box {
+    background: #fff;
+    padding: 50px 30px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.05);
+    position: relative;
+    z-index: 2;
+}
+.contact-form-box h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1e417c;
+}
+.contact-form-box p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* Form Inputs */
+.contact-form-box .form-control, .contact-form-box .form-select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.contact-form-box .form-control:focus, 
+.contact-form-box .form-select:focus {
+    border-color: #1e417c;
+    box-shadow: 0 0 8px rgba(30, 65, 124, 0.2);
+    outline: none;
+}
+
+/* Submit Button */
+.submit_btn {
+    background: #1e417c;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.submit_btn:hover {
+    background: #0d265a;
+}
+
+/* Info Section */
+.contact-area .info {
+    background: #f1f4fb;
+    padding: 40px 30px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.contact-area .info .content ul {
+    list-style: none;
+    padding: 0;
+}
+.contact-area .info .content ul li {
+    display: flex;
+    margin-bottom: 30px;
+}
+.contact-area .info .content ul li .icon {
+    font-size: 24px;
+    color: #1e417c;
+    margin-right: 20px;
+}
+.contact-area .info .content ul li .info h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.contact-area .info .content ul li .info a, 
+.contact-area .info .content ul li .info p {
+    font-size: 15px;
+    color: #555;
+    text-decoration: none;
+}
+
+/* Alert Message */
+.alert-msg {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #1e417c;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .breadcrumb-area { padding: 80px 0 50px; }
+    .contact-form-box { padding: 30px 20px; }
+}
+@media (max-width: 767px) {
+    .contact-area.default-padding { padding: 50px 0; }
+    .contact-area .info { margin-bottom: 30px; }
+}
